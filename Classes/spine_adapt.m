@@ -7,10 +7,9 @@
 //
 
 #include <stdio.h>
-#include <spine/spine.h>
-#include <spine/extension.h>
+#include <spine.h>
+#include <extension.h>
 #include "spine_adapt.h"
-#import <SpriteKit/SpriteKit.h>
 
 static spine_adapt_createtexture_t _callback_createTexture = 0;
 static spine_adapt_disposetexture_t _callback_disposeTexture = 0;

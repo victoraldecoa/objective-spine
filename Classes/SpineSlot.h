@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "SpineAttachment.h"
 #import "SpineBone.h"
-#import <spine/spine.h>
+#import <spine.h>
 
 @interface SpineSlot : NSObject
 @property (nonatomic, strong) NSString *name;

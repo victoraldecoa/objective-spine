@@ -9,8 +9,8 @@
 #ifndef PZTool_spine_adapt_h
 #define PZTool_spine_adapt_h
 
-#include <spine/spine.h>
-#include <spine/extension.h>
+#include <spine.h>
+#include <extension.h>
 
 typedef void *(*spine_adapt_createtexture_t)(const char* path, int *pwidth, int *pheight);
 typedef void (*spine_adapt_disposetexture_t)(void *rendobj);
