@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '4.0'
 
-  s.requires_arc = true
-
   s.source_files = 'Classes/*.{h,m}', 'Libraries/spine-c/*.{c,h}'
 end
 
